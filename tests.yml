@@ -2,3 +2,9 @@ repo_owner: alexproevolution
 kittygram_domain: https://praktikumalex.ddns.net/
 taski_domain: https://alexandersaduha.ddns.net/
 dockerhub_username: alexproevolution
+# Это мой головной ngnix, наставники долго не отвечают, а я не пойму, что не так
+#
+#   location /media/ {
+#       alias /media/;
+#       proxy_set_header Host $http_host;
+#   }
