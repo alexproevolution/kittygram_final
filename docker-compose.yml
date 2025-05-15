@@ -32,3 +32,4 @@ services:
       - ./config/nginx/conf.d:/etc/nginx/conf.d
       - static:/static
       - media:/media
+# Te
